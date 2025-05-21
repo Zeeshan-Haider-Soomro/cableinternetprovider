@@ -2,8 +2,11 @@ import Banner from "../components/Banner";
 import { FaWifi } from "react-icons/fa";
 import HeroSection from "../components/HeroSection";
 import ImageCarousel from "../components/ImageCarousel";
+import { AppImages } from "../constant/AppImages";
+
 
 const Home = () => {
+    const {High_Speed_Internet} = AppImages
   return (
     <div>
       {/* hero section */}
@@ -49,14 +52,14 @@ const Home = () => {
                 <Banner
           title="High-Speed Internet"
           description="From high-speed fiber to reliable satellite, we offer a range of options and speeds to meet all your internet needs."
-          imageUrl="public\shutterstock_1085821205.jpg"
+          imageUrl= {High_Speed_Internet}
           icon={<FaWifi />}
           reverse={false}
         />
         <Banner
           title="High-Speed Internet"
           description="From high-speed fiber to reliable satellite, we offer a range of options and speeds to meet all your internet needs."
-          imageUrl="public\shutterstock_1085821205.jpg"
+          imageUrl= {High_Speed_Internet}
           icon={<FaWifi />}
           reverse={true}
         />
