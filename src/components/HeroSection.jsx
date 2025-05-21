@@ -5,8 +5,10 @@ import {
   FaHouseSignal,
   FaMobileScreenButton,
 } from "react-icons/fa6";
+import { AppImages } from "../constant/AppImages";
 
 const HeroSection = () => {
+    const {Heroimg} = AppImages
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 bg-[#121A2C]"       style={{
         background:
@@ -48,7 +50,7 @@ const HeroSection = () => {
         // }}
       >
         <img
-          src="/heroimg.png"
+          src= {Heroimg}
           alt="Happy User"
           className="w-full h-auto"
         />
