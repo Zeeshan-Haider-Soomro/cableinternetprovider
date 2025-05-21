@@ -1,4 +1,4 @@
-import DyanmicComponent from "../components/DyanmicComponent";
+import Banner from "../components/Banner";
 import { FaWifi } from "react-icons/fa";
 import HeroSection from "../components/HeroSection";
 import ImageCarousel from "../components/ImageCarousel";
@@ -46,14 +46,14 @@ const Home = () => {
       </section>
       {/* Dyanmic component section */}
       <section className="md:p-10 bg-[#121a2c]">
-                <DyanmicComponent
+                <Banner
           title="High-Speed Internet"
           description="From high-speed fiber to reliable satellite, we offer a range of options and speeds to meet all your internet needs."
           imageUrl="public\shutterstock_1085821205.jpg"
           icon={<FaWifi />}
           reverse={false}
         />
-        <DyanmicComponent
+        <Banner
           title="High-Speed Internet"
           description="From high-speed fiber to reliable satellite, we offer a range of options and speeds to meet all your internet needs."
           imageUrl="public\shutterstock_1085821205.jpg"
@@ -90,7 +90,7 @@ const Home = () => {
 </div>
       </section>
       <section className="md:p-10 bg-[#121a2c]">
-              <DyanmicComponent
+              <Banner
           title="High-Speed Internet"
           description="From high-speed fiber to reliable satellite, we offer a range of options and speeds to meet all your internet needs."
           imageUrl="public\shutterstock_1085821205.jpg"

@@ -1,5 +1,5 @@
 
-const DyanmicComponent = ({ 
+const Banner = ({ 
   title, 
   description, 
   imageUrl, 
@@ -39,4 +39,4 @@ const DyanmicComponent = ({
   );
 };
 
-export default DyanmicComponent;
+export default Banner;
