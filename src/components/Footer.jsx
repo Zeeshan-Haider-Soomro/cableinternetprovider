@@ -3,7 +3,7 @@ import { BsRouter } from "react-icons/bs";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="text-[#A9A9B8] bg-gradient-to-r from-[#111827] via-[#1F2937] to-[#0F172A] md:px-16 pt-20">
+    <div className="text-[#A9A9B8] bg-gradient-to-r from-[#111827] via-[#1F2937] to-[#0F172A] md:px-16 pt-20 md:pb-10 pb-20">
       <div className="bg-gradient-to-r from-[#1E293B] via-[#334155] to-[#1F2937] p-5 rounded-[20px] ">
         <div className="flex items-center gap-2 justify-center p-10">
           <BsRouter className="text-orange-400 h-15 w-15 md:h-16 md:w-16 lg:h-20 lg:w-20" />
