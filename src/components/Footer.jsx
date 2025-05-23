@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="bg-gradient-to-r from-[#1E293B] via-[#334155] to-[#1F2937] p-5 rounded-[20px] ">
         <div className="flex items-center gap-2 justify-center p-10">
           <BsRouter className="text-orange-400 h-15 w-15 md:h-16 md:w-16 lg:h-20 lg:w-20" />
-          <h1 className="text-2xl md:text-2xl text-white font-medium leading-tight">
-            <span className="text-orange-400">C</span>able Internet <br />
-            Pro<span className="text-orange-400">viders.</span>
+    <h1 className="text-2xl md:text-2xl font-medium leading-tight text-transparent bg-clip-text bg-gradient-to-r from-white from-[0%] via-white via-[45%] to-orange-400 to-[70%]">
+            Internet Tv & <br />
+            Fiber Deals
           </h1>
         </div>
         <div className="text-center">
@@ -36,12 +36,13 @@ const Footer = () => {
             we will remove the charges, which should reflect on your statement
             within 10-14 business days.
           </p>
-          <p>Phone: (888) 206-8773</p>
+          <p>Phone: (888) 225-0811</p>
           <div className="text-center text-gray-400 md:p-3 py-5">
             Copyright © {currentYear}{" "}
-            <span className="text-orange-400 font-medium">
-              The Internet Providers
-            </span>
+          <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-white from-[0%] via-white via-[45%] via-orange-400 via-[65%] to-yellow-300 to-[100%]">
+  The Internet Providers
+</span>
+
           </div>
         </div>
       </div>

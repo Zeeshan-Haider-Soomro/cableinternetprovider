@@ -1,0 +1,4 @@
+<!-- public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f97316">
+  <path d="M13 10a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h.5A1.5 1.5 0 0 1 14 6.5v3a1.5 1.5 0 0 1-1.5 1.5H13Zm-1-2v1h.5a.5.5 0 0 0 0-1H12ZM5 9a1 1 0 0 1 1 1v1h4v-1a1 1 0 0 1 1-1h1a2 2 0 0 1 2 2v1h-1a2 2 0 0 1-2-2v-1H6v1a2 2 0 0 1-2 2H3v-1a2 2 0 0 1 2-2h1Z"/>
+</svg>
