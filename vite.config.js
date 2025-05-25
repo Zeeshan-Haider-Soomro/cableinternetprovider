@@ -9,5 +9,5 @@ export default defineConfig({
   plugins: [react(),
         tailwindcss(),
   ],
-  base: "/", // Use "/" for custom domains or "/repo-name/" for default 
+  base: "https://internettvandfiberdeals.com", // Use "/" for custom domains or "/repo-name/" for default 
 })
