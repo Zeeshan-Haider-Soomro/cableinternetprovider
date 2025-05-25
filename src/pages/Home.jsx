@@ -37,17 +37,17 @@ const Home = () => {
   {/* Right Blur Overlay */}
   <div className="absolute top-0 right-0 h-full w-5 bg-gradient-to-l from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
 
-  <h1 className="text-gray-400 text-sm pb-5 font-medium">
+  <h1 className="text-gray-400 text-2xl pb-5 font-medium">
     Don't Forget!
   </h1>
-  <h1 className="text-white text-2xl md:text-3xl font-bold pb-3">
+  <h1 className="text-white text-4xl md:text-3xl font-bold pb-3">
     Bundle Wireless with the
   </h1>
-  <p className="text-white text-2xl md:text-3xl font-bold">
+  <p className="text-white text-4xl md:text-3xl font-bold">
     services below as low as
-    <span className="text-[#FF8904] align-super text-base"> $</span>
+    <span className="text-[#FF8904] align-super text-[26px]"> $</span>
     <span className="text-[#FF8904] text-4xl font-bold">29</span>
-    <sup className="text-sm text-[#FF8904] font-medium">99*</sup>
+    <sup className="text-2xl text-[#FF8904] font-medium">.99*</sup>
   </p>
 </div>
       </section>
@@ -95,7 +95,7 @@ const Home = () => {
   <h1 className="text-gray-400 text:[16px] md:text-sm pb-5 font-medium">
     Hurry! Call now & bundle today!
   </h1>
-  <h1 className="text-white text-3xl md:text-4xl font-bold pb-3">
+  <h1 className="text-white text-4xl md:text-4xl font-bold pb-3">
     Your Gift Card offer won't last!
   </h1>
 </div>
