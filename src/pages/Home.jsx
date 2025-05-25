@@ -32,10 +32,10 @@ const Home = () => {
   <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
   
   {/* Left Blur Overlay */}
-  <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
+  <div className="absolute top-0 left-0 h-full w-5 bg-gradient-to-r from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
   
   {/* Right Blur Overlay */}
-  <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
+  <div className="absolute top-0 right-0 h-full w-5 bg-gradient-to-l from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
 
   <h1 className="text-gray-400 text-sm pb-5 font-medium">
     Don't Forget!
@@ -87,15 +87,15 @@ const Home = () => {
   <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
   
   {/* Left Blur Overlay */}
-  <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
+  <div className="absolute top-0 left-0 h-full w-5 bg-gradient-to-r from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
   
   {/* Right Blur Overlay */}
-  <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
+  <div className="absolute top-0 right-0 h-full w-5 bg-gradient-to-l from-[#121A2C] to-transparent backdrop-blur-md z-0 pointer-events-none" />
 
-  <h1 className="text-gray-400 text-sm pb-5 font-medium">
+  <h1 className="text-gray-400 text:[16px] md:text-sm pb-5 font-medium">
     Hurry! Call now & bundle today!
   </h1>
-  <h1 className="text-white text-2xl md:text-3xl font-bold pb-3">
+  <h1 className="text-white text-3xl md:text-4xl font-bold pb-3">
     Your Gift Card offer won't last!
   </h1>
 </div>

@@ -25,7 +25,7 @@ const HeroSection = () => {
           reliable, and affordable connections.
         </p>
 
-        <div className="flex gap-6 text-[#FF8904] text-3xl">
+        <div className="cursor-pointer flex gap-6 text-[#FF8904] text-3xl">
           <CgScreenWide />
           <FaMobileScreenButton />
           <FaHouseSignal />

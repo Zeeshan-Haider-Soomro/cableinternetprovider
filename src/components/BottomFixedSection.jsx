@@ -5,11 +5,11 @@ const BottomFixedSection = () => {
     <div className="fixed bottom-0 left-0 w-full bg-[#FF8904] z-50 shadow-lg">
       <div className="flex items-center justify-between px-4 md:px-20 py-2 text-white flex-wrap">
         <div className="flex items-center gap-2">
-          {/* WhatsApp link on icon */}
+          {/* Phone call link on icon */}
           <a
-            href="https://wa.me/(888) 225-0811?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20bundles.%20Please%20share%20more%20details."
+            href="tel:(888) 225-0811"
             target="_blank"
-            rel="noopener noreferrer"
+            // rel="noopener noreferrer"
             className="text-white bg-transparent border border-white p-2 rounded-full"
           >
             <BiPhoneCall className="text-xl cursor-pointer" />
