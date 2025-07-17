@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="text-center text-gray-400 md:p-3 py-5">
             Copyright © {currentYear}{" "}
             <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-white from-[0%] via-white via-[45%] via-orange-400 via-[65%] to-yellow-300 to-[100%]">
-              Internet Tv And Fiber Deaals
+              Internet Tv And Fiber Deals
             </span>
           </div>
         </div>
